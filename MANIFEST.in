@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include laboratorio *.css
+recursive-include laboratorio *.csv
+recursive-include laboratorio *.html
+recursive-include laboratorio *.ico
+recursive-include laboratorio *.js
+recursive-include laboratorio *.json
+recursive-include laboratorio *.md
+recursive-include laboratorio *.png
+recursive-include laboratorio *.py
+recursive-include laboratorio *.svg
+recursive-include laboratorio *.txt
+recursive-exclude laboratorio *.pyc
